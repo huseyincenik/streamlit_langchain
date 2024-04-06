@@ -45,7 +45,7 @@ def get_text_chunks(text, model_name):
 
 def get_vector_store(text_chunks, model_name, api_key=None):
     if model_name == "OpenAI":
-        embeddings = OpenAIEmbeddings()
+        embeddings = OpenAIEmbeddings(api_key = api_key)
     elif model_name == "Google AI":
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=api_key)
     vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
