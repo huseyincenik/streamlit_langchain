@@ -157,7 +157,7 @@ def user_input(user_question, model_name, api_key, pdf_docs, conversation_histor
         </div>
         <div class="chat-message bot">
             <div class="avatar">
-                <img src="https://i.ibb.co/8d7MJ6B/1-pyyrq-Yr-Dv-Zqkc-Co-EJANo4w.png" >
+                <img src="https://i.ibb.co/wNmYHsx/langchain-logo.webp" >
             </div>
             <div class="message">{response_output}</div>
             </div>
@@ -183,7 +183,7 @@ def user_input(user_question, model_name, api_key, pdf_docs, conversation_histor
             </div>
             <div class="chat-message bot">
                 <div class="avatar">
-                    <img src="https://i.ibb.co/8d7MJ6B/1-pyyrq-Yr-Dv-Zqkc-Co-EJANo4w.png" >
+                    <img src="https://i.ibb.co/wNmYHsx/langchain-logo.webp" >
                 </div>
                 <div class="message">{answer}</div>
             </div>
